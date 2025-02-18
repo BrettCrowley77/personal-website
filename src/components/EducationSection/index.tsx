@@ -13,19 +13,19 @@ const educationData: EducationItem[] = [
     degree: "Master of Arts in Economics (in progress)",
     institution: "Queen’s University",
     years: "2024-2025",
-    gpa: "3.87 / 4.3 (90.0)",
+    gpa: "3.87 / 4.3 (90.0%)",
   },
   {
     degree: "Bachelor of Arts in Global Development Studies",
     institution: "Queen’s University",
     years: "2014-2019",
-    gpa: "3.16 / 4.3 (73.5)",
+    gpa: "3.16 / 4.3 (73.5%)",
   },
   {
     degree: "Bachelor of Applied Science in Civil Engineering",
     institution: "Queen’s University",
     years: "2013-2018",
-    gpa: "3.57 / 4.3 (83.0)",
+    gpa: "3.57 / 4.3 (83.0%)",
   },
 ];
 
