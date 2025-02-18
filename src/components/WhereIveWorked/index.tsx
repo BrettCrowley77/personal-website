@@ -37,7 +37,7 @@ const WhereIveWorked: React.FC = () => {
     },
     {
       id: 2,
-      title: "Malawi (2016)",
+      title: "Malawi (2015)",
       description:
         "Completed a three-month internship as a junior fellow with Engineers Without Borders Canada",
       coords: [34.3015, -13.2543],
@@ -77,7 +77,7 @@ const WhereIveWorked: React.FC = () => {
     },
     {
       id: 7,
-      title: "Madagascar (2020)",
+      title: "Madagascar (2019)",
       description:
         "Met with local stakeholders to collect data and contextual information needed for the economic analysis of USAID/Madagascar's Communities and Conservation Project.",
       coords: [46.8691, -18.7669],
