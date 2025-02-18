@@ -25,7 +25,7 @@ interface LocationData {
 
 const WhereIveWorked: React.FC = () => {
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
-  const [mapInstance, setMapInstance] = useState<Map | null>(null);
+  const [, setMapInstance] = useState<Map | null>(null);
   const locations: LocationData[] = [
     {
       id: 1,
