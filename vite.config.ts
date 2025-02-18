@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Create __filename and __dirname equivalents
-const __filename = fileURLToPath(import.meta.url);
+// Quick workaround: cast import.meta to any
+const __filename = fileURLToPath((import.meta as any).url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
