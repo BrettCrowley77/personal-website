@@ -1,0 +1,42 @@
+nav {
+  background-color: #ffffff;
+  border-bottom: 2px solid #dfe7d3;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c5f2d; /* earthy green */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #1b3a1d;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #dfe7d3;
+  margin-top: 2rem;
+}

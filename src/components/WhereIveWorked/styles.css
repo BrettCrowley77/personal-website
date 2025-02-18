@@ -1,0 +1,79 @@
+.where-ive-worked-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.map-marker {
+  width: 20px;
+  height: 20px;
+  background-color: #2c5f2d;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.popup-content {
+  width: 300px;
+  height: 150px;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 75%;
+  height: 100%;
+}
+
+.popup-image {
+  width: 70px;
+  height: 100%;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.popup-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.popup-text {
+  flex: 1;
+  text-align: left;
+  overflow-y: auto;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.popup-title {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem 0;
+  color: #2c5f2d;
+}
+
+.popup-description {
+  font-size: 0.9rem;
+  padding: 8;
+  color: #333;
+}
+
+.mapboxgl-popup-close-button {
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 18px;
+}
