@@ -22,16 +22,6 @@ const journalArticles: PublicationItem[] = [
 const professionalReports: PublicationItem[] = [
   {
     citation:
-      "Jain S, Ahsan S, Robb Z, Crowley B, Walters D. (2024). The cost of inaction: a global tool to inform nutrition policy and investment decisions on global nutrition targets. Health Policy and Planning.",
-    link: "https://doi.org/10.1093/heapol/czae056",
-  },
-  {
-    citation:
-      "Lloyd-Ellis, H., Kashi, B., Crowley, B. (2023). Measuring Jobs Impacts: A Decision Framework and Available Methods. Jobs Guide; Issue 8. World Bank.",
-    link: "https://hdl.handle.net/10986/40792",
-  },
-  {
-    citation:
       "Bahn R, Carello S, Crowley B, Kashi B. (2022). Cost Benefit Analysis of Resilience in the Sahel Enhanced II (RISE II) Activities. Client: USAID.",
     link: null,
   },
@@ -48,17 +38,17 @@ const professionalReports: PublicationItem[] = [
   {
     citation:
       "Wallace L, Carello S, Crowley B, Kaluwa B, Wong B. (2021). Malawi Priorities: Industrialization & Youth Employment Final Report. Client: Copenhagen Consensus Center and National Planning Commission of Malawi.",
-    link: null,
+    link: "https://copenhagenconsensus.com/publication/malawi-priorities-industrialization-and-youth-employment",
   },
   {
     citation:
       "Wallace L, Kashi B, Morawczynski O, Wensley M, Mbendera A, Henriques T, Davis S, Crowley B. (2021). DIAL 1.0 Endline Evaluation Report. Client: Digital Impact Alliance.",
-    link: null,
+    link: "https://limestone-analytics.com/wp-content/uploads/2021/09/2020-DIAL-1.0-Endline-Evaluation-Draft-Final-Report-Extended-Executive-Summary.pdf",
   },
   {
     citation:
       "Brady C, Cotton C, Crowley B, Davis S, Farquharson C, Kashi B, Lloyd-Ellis H, Tremblay T. (2021). Emerging from Crisis? Malawi in 2025. Client: National Planning Commission of Malawi.",
-    link: null,
+    link: "https://limestone-analytics.com/wp-content/uploads/2021/02/Malawi-Scenario-Planning-Report-2021-02-01-1.pdf",
   },
   {
     citation:
@@ -89,11 +79,14 @@ const PublicationsSection: React.FC = () => {
             <li key={index}>
               <p>
                 {item.citation}
-                {`${item.link != null ? ` Available online: ` : ""}`}
                 {item.link != null && (
-                  <a href={item.link} target="_blank">
-                    {item.link}
-                  </a>
+                  <>
+                    {` `}
+                    <a href={item.link} target="_blank">
+                      {`Available online`}
+                    </a>
+                    .
+                  </>
                 )}
               </p>
             </li>
@@ -108,11 +101,14 @@ const PublicationsSection: React.FC = () => {
             <li key={index}>
               <p>
                 {item.citation}
-                {`${item.link != null ? ` Available online: ` : ""}`}
                 {item.link != null && (
-                  <a href={item.link} target="_blank">
-                    {item.link}
-                  </a>
+                  <>
+                    {` `}
+                    <a href={item.link} target="_blank">
+                      {`Available online`}
+                    </a>
+                    .
+                  </>
                 )}
               </p>
             </li>
