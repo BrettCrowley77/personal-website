@@ -13,7 +13,6 @@ import {
   FaGitAlt,
   FaGithub,
   FaFigma,
-  FaCubes,
   FaCube,
   FaTable,
 } from "react-icons/fa";
@@ -39,6 +38,7 @@ import {
   SiTypescript,
   SiGraphql,
   SiVite,
+  SiExpo,
 } from "react-icons/si";
 import { MdDynamicFeed } from "react-icons/md";
 import { GiTeacher } from "react-icons/gi";
@@ -82,6 +82,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Kobo Toolbox", icon: <MdDynamicFeed /> },
         { name: "ArcGIS", icon: <FaGlobe /> },
+        { name: "Mapbox", icon: <SiMapbox /> },
       ],
     },
     {
@@ -89,6 +90,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: "React", icon: <SiReact /> },
         { name: "React Native", icon: <SiReact /> },
+        { name: "Expo", icon: <SiExpo /> },
         { name: "HTML", icon: <SiHtml5 /> },
         { name: "CSS", icon: <SiCss3 /> },
       ],
@@ -115,7 +117,7 @@ const Skills: React.FC = () => {
     {
       label: "Data Modeling & Databases",
       skills: [
-        { name: "DBDiagram", icon: <FaCubes /> },
+        { name: "DBDiagram", icon: <FaProjectDiagram /> },
         { name: "Prisma", icon: <SiPrisma /> },
         { name: "PostgreSQL", icon: <SiPostgresql /> },
       ],
@@ -141,7 +143,7 @@ const Skills: React.FC = () => {
       label: "Deployment & Automation",
       skills: [
         { name: "GitHub Actions", icon: <FaGithub /> },
-        { name: "EAS", icon: <FaCubes /> },
+        { name: "EAS", icon: <SiExpo /> },
       ],
     },
     {
